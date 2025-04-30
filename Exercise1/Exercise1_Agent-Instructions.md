@@ -36,7 +36,4 @@ Test your agent
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Exercise1/161448.png?raw=true" alt="image" width="75%" height="auto">
 
-
-
-
->>>>>>> 76fa1d33b120efa855bf99dd4ce00782378ec028
+Congratulations on your first agent. Feel free to play around with the instructions to see how an answer changes. 
