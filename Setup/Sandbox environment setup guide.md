@@ -31,6 +31,18 @@ The credentials will be provided at the beginning of the event!
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_125157.png?raw=true" alt="image" width="50%" height="auto">
 
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_125228.png?raw=true" alt="image" width="75%" height="auto">
+
+---
+
+### 3. Edge browser profile (optional)
+
+Using the Edge browser profile is **optional** and **not** recommended, and W365 should be the prefered solution.
 
 
 
+
+
+
+
+https://www.microsoft365.com/
