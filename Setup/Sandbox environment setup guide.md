@@ -1,8 +1,3 @@
-<style>
-    red { color: red }
-    yellow { color: yellow }
-</style>
-
 # Sandbox environment setup guide
 
 You can access the environment by using a W365 desktop (recommended) or a separate (Edge) browser profile.
@@ -21,7 +16,7 @@ For MacOS, please follow the instructions: [Use the Windows app to connect to a 
 
 The credentials will be provided at the beginning of the event!
 
-<red>If you are already using the Windows App you have to sign-out first!</red>
+<span style="color:red">If you are already using the Windows App you have to sign-out first!</span>
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_124916.png?raw=true" alt="image" width="75%" height="auto">
 
@@ -59,6 +54,6 @@ Select this app only:
 
 Navigate to [https://www.microsoft365.com/](https://www.microsoft365.com/)
 
-<red>In most cases you will be automatically signed-in to M365 with your own work profile, due to default browser settings. In this cases, sign-out and sign-in again with the provided credentials:</red>
+<span style="color:red">In most cases you will be automatically signed-in to M365 with your own work profile, due to default browser settings. In this cases, sign-out and sign-in again with the provided credentials:</span>
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_133129.png?raw=true" alt="image" width="40%" height="auto">
