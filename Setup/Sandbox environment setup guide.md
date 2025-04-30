@@ -43,8 +43,22 @@ First, open your Edge browser, open the list of profiles and add a new one:
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_131631.png?raw=true" alt="image" width="75%" height="auto">
 
+Syncronization is optional but recommended to store the credentials:
 
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_131853.png?raw=true" alt="image" width="75%" height="auto">
 
+Sign-In:
 
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_132043.png?raw=true" alt="image" width="40%" height="auto">
 
-https://www.microsoft365.com/
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_125157.png?raw=true" alt="image" width="50%" height="auto">
+
+Select this app only:
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_132139.png?raw=true" alt="image" width="40%" height="auto">
+
+Navigate to [https://www.microsoft365.com/](https://www.microsoft365.com/)
+
+<red>In most cases you will be automatically signed-in to M365 with your own work profile, due to default browser settings. In this cases, sign-out and sign-in again with the provided credentials:</red>
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_133129.png?raw=true" alt="image" width="40%" height="auto">
