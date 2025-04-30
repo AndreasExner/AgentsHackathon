@@ -1,4 +1,6 @@
-# Sandbox environment setup guide
+# Agents Hackathon
+
+## Sandbox environment setup guide
 
 You can access the environment by using a W365 desktop (recommended) or a separate (Edge) browser profile.
 
@@ -32,7 +34,7 @@ The credentials will be provided at the beginning of the event!
 
 ### 3. Edge browser profile (optional)
 
-Using the Edge browser profile is **optional** and **not** recommended, and W365 should be the prefered solution.
+Using the Edge browser profile on your *personal* device is **optional** and **not** recommended, and W365 should be the prefered solution.
 
 First, open your Edge browser, open the list of profiles and add a new one:
 
