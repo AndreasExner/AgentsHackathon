@@ -39,7 +39,9 @@ The credentials will be provided at the beginning of the event!
 
 Using the Edge browser profile is **optional** and **not** recommended, and W365 should be the prefered solution.
 
+First, open your Edge browser, open the list of profiles and add a new one:
 
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_131631.png?raw=true" alt="image" width="75%" height="auto">
 
 
 
