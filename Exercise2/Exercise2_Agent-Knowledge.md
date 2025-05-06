@@ -22,5 +22,10 @@ Navigate to https://m365cpi76307077.sharepoint.com/sites/Finance/Shared%20Docume
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Exercise2/142256.png?raw=true" alt="image" width="75%" height="auto">
 
+Add the knowledge to the agent:
 
-https://m365cpi76307077.sharepoint.com/sites/Finance/Shared%20Documents/Forms/AllItems.aspx
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Exercise2/141910.png?raw=true" alt="image" width="75%" height="auto">
+
+Optional: add starter prompts:
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Exercise2/141524.png?raw=true" alt="image" width="75%" height="auto">
