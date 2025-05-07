@@ -8,7 +8,7 @@ You will find anything you need in this repository. Please start with the setup 
 
 + [Sandbox environment setup guide](<Setup/Sandbox environment setup guide.md>)
 + [Exercise #1: Agent Instructions](<UseCaseLibrary/NameIt-Agent/README.md>)
-+ [Exercise #2: Agent Knowledge](<UseCaseLibrary/Umsatzsteuer-Agent/REDME.md>)
++ [Exercise #2: Agent Knowledge](<UseCaseLibrary/Umsatzsteuer-Agent/README.md>)
 + Exercise #3: Agent Actions
 + Exercise #4: Agent Hackathon
 
