@@ -14,26 +14,26 @@ Navigate to [https://www.microsoft365.com/chat](https://www.microsoft365.com/cha
 
 Create a new agent
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Exercise1/153615.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/NameIt-Agent/153615.png?raw=true" alt="image" width="75%" height="auto">
 
 Switch to **Configure**
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Exercise1/153700.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/NameIt-Agent/153700.png?raw=true" alt="image" width="75%" height="auto">
 
 Select a name, write the description and build your own instruction (or start with the example above)
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Exercise1/160910.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/NameIt-Agent/160910.png?raw=true" alt="image" width="75%" height="auto">
 
 Enable web groundig
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Exercise1/160952.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/NameIt-Agent/160952.png?raw=true" alt="image" width="75%" height="auto">
 
 Use **Dismiss** to stay in editing mode
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Exercise1/161216.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/NameIt-Agent/161216.png?raw=true" alt="image" width="75%" height="auto">
 
 Test your agent
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Exercise1/161448.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/NameIt-Agent/161448.png?raw=true" alt="image" width="75%" height="auto">
 
 Congratulations on your first agent. Feel free to play around with the instructions to see how an answer changes. 
