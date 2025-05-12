@@ -1,0 +1,729 @@
+swagger: "2.0"
+info:
+  description: "TravelTime API"
+  version: "1.0.0"
+  title: "TravelTime API"
+  contact:
+    name: "TravelTime"
+    url: "https://docs.traveltime.com/"
+host: "api.traveltimeapp.com"
+basePath: "/v4"
+schemes:
+  - "https"
+paths:
+  /time-map:
+    get:
+      summary: "Get Time Map"
+      description: "Retrieve a time map using public transport."
+      parameters:
+        - name: "type"
+          in: "query"
+          required: true
+          type: "string"
+          default: "public_transport"
+        - name: "travel_time"
+          in: "query"
+          required: true
+          type: "integer"
+          default: 3600
+        - name: "lat"
+          in: "query"
+          required: true
+          type: "number"
+          format: "float"
+          default: 41.12332
+        - name: "lng"
+          in: "query"
+          required: true
+          type: "number"
+          format: "float"
+          default: -0.12422
+        - name: "arrival_time"
+          in: "query"
+          required: true
+          type: "string"
+          default: "{{departure_time}}"
+        - name: "app_id"
+          in: "query"
+          required: true
+          type: "string"
+          default: "{{app_id}}"
+        - name: "api_key"
+          in: "query"
+          required: true
+          type: "string"
+          default: "{{app_key}}"
+      responses:
+        200:
+          description: "Successful response"
+    post:
+      summary: "Post Time Map"
+      description: "Retrieve a time map using various transportation methods."
+      parameters:
+        - name: "body"
+          in: "body"
+          required: true
+          schema:
+            type: "object"
+            properties:
+              departure_searches:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "public transport from Trafalgar Square"
+                    coords:
+                      type: "object"
+                      properties:
+                        lat:
+                          type: "number"
+                          format: "float"
+                          example: 51.507609
+                        lng:
+                          type: "number"
+                          format: "float"
+                          example: -0.128315
+                    transportation:
+                      type: "object"
+                      properties:
+                        type:
+                          type: "string"
+                          example: "public_transport"
+                    departure_time:
+                      type: "string"
+                      example: "{{departure_time}}"
+                    travel_time:
+                      type: "integer"
+                      example: 900
+              arrival_searches:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "public transport to Trafalgar Square"
+                    coords:
+                      type: "object"
+                      properties:
+                        lat:
+                          type: "number"
+                          format: "float"
+                          example: 51.507609
+                        lng:
+                          type: "number"
+                          format: "float"
+                          example: -0.128315
+                    transportation:
+                      type: "object"
+                      properties:
+                        type:
+                          type: "string"
+                          example: "public_transport"
+                    arrival_time:
+                      type: "string"
+                      example: "{{arrival_time}}"
+                    travel_time:
+                      type: "integer"
+                      example: 900
+                    range:
+                      type: "object"
+                      properties:
+                        enabled:
+                          type: "boolean"
+                          example: true
+                        width:
+                          type: "integer"
+                          example: 3600
+      responses:
+        200:
+          description: "Successful response"
+  /time-filter:
+    get:
+      summary: "Get Time Filter"
+      description: "Retrieve time filter results using public transport."
+      parameters:
+        - name: "type"
+          in: "query"
+          required: true
+          type: "string"
+          default: "public_transport"
+        - name: "arrival_time"
+          in: "query"
+          required: true
+          type: "string"
+          default: "{{arrival_time}}"
+        - name: "search_lat"
+          in: "query"
+          required: true
+          type: "number"
+          format: "float"
+          default: 51.41070
+        - name: "search_lng"
+          in: "query"
+          required: true
+          type: "number"
+          format: "float"
+          default: -0.15540
+        - name: "locations"
+          in: "query"
+          required: true
+          type: "string"
+          default: "51.45974_-0.16531,51.41494_-0.12492,51.41074_-0.21531,51.42942_-0.23343"
+        - name: "app_id"
+          in: "query"
+          required: true
+          type: "string"
+          default: "{{app_id}}"
+        - name: "api_key"
+          in: "query"
+          required: true
+          type: "string"
+          default: "{{app_key}}"
+      responses:
+        200:
+          description: "Successful response"
+    post:
+      summary: "Post Time Filter"
+      description: "Retrieve time filter results using various transportation methods."
+      parameters:
+        - name: "body"
+          in: "body"
+          required: true
+          schema:
+            type: "object"
+            properties:
+              locations:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "London center"
+                    coords:
+                      type: "object"
+                      properties:
+                        lat:
+                          type: "number"
+                          format: "float"
+                          example: 51.508930
+                        lng:
+                          type: "number"
+                          format: "float"
+                          example: -0.131387
+              departure_searches:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "departure search example"
+                    departure_location_id:
+                      type: "string"
+                      example: "London center"
+                    arrival_location_ids:
+                      type: "array"
+                      items:
+                        type: "string"
+                        example: "Hyde Park"
+                    departure_time:
+                      type: "string"
+                      example: "{{departure_time}}"
+                    travel_time:
+                      type: "integer"
+                      example: 1800
+                    properties:
+                      type: "array"
+                      items:
+                        type: "string"
+                        example: "travel_time"
+                    transportation:
+                      type: "object"
+                      properties:
+                        type:
+                          type: "string"
+                          example: "bus"
+                        max_changes:
+                          type: "object"
+                          properties:
+                            enabled:
+                              type: "boolean"
+                              example: true
+                            limit:
+                              type: "integer"
+                              example: 3
+                    range:
+                      type: "object"
+                      properties:
+                        enabled:
+                          type: "boolean"
+                          example: true
+                        max_results:
+                          type: "integer"
+                          example: 3
+                        width:
+                          type: "integer"
+                          example: 600
+              arrival_searches:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "arrival search example"
+                    arrival_location_id:
+                      type: "string"
+                      example: "London center"
+                    departure_location_ids:
+                      type: "array"
+                      items:
+                        type: "string"
+                        example: "Hyde Park"
+                    arrival_time:
+                      type: "string"
+                      example: "{{arrival_time}}"
+                    travel_time:
+                      type: "integer"
+                      example: 1900
+                    properties:
+                      type: "array"
+                      items:
+                        type: "string"
+                        example: "travel_time"
+                        example: "distance"
+                        example: "distance_breakdown"
+                        example: "fares"
+                    transportation:
+                      type: "object"
+                      properties:
+                        type:
+                          type: "string"
+                          example: "public_transport"
+      responses:
+        200:
+          description: "Successful response"
+  /time-filter/fast:
+    post:
+      summary: "Post Time Filter Fast"
+      description: "Retrieve time filter results quickly using various transportation methods."
+      parameters:
+        - name: "body"
+          in: "body"
+          required: true
+          schema:
+            type: "object"
+            properties:
+              locations:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "London center"
+                    coords:
+                      type: "object"
+                      properties:
+                        lat:
+                          type: "number"
+                          format: "float"
+                          example: 51.508930
+                        lng:
+                          type: "number"
+                          format: "float"
+                          example: -0.131387
+              arrival_searches:
+                type: "object"
+                properties:
+                  one_to_many:
+                    type: "array"
+                    items:
+                      type: "object"
+                      properties:
+                        id:
+                          type: "string"
+                          example: "public transport to Trafalgar Square"
+                        coords:
+                          type: "object"
+                          properties:
+                            lat:
+                              type: "number"
+                              format: "float"
+                              example: 51.507609
+                            lng:
+                              type: "number"
+                              format: "float"
+                              example: -0.128315
+                        arrival_time_period:
+                          type: "string"
+                          example: "weekday_morning"
+                        travel_time:
+                          type: "integer"
+                          example: 900
+                        transportation:
+                          type: "object"
+                          properties:
+                            type:
+                              type: "string"
+                              example: "public_transport"
+                        level_of_detail:
+                          type: "object"
+                          properties:
+                            scale_type:
+                              type: "string"
+                              example: "simple"
+                            level:
+                              type: "string"
+                              example: "lowest"
+      responses:
+        200:
+          description: "Successful response"
+  /time-filter/postcodes:
+    post:
+      summary: "Post Time Filter Postcodes"
+      description: "Retrieve time filter results for postcodes using various transportation methods."
+      parameters:
+        - name: "body"
+          in: "body"
+          required: true
+          schema:
+            type: "object"
+            properties:
+              departure_searches:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "public transport from Trafalgar Square"
+                    coords:
+                      type: "object"
+                      properties:
+                        lat:
+                          type: "number"
+                          format: "float"
+                          example: 51.507609
+                        lng:
+                          type: "number"
+                          format: "float"
+                          example: -0.128315
+                    departure_time:
+                      type: "string"
+                      example: "{{departure_time}}"
+                    travel_time:
+                      type: "integer"
+                      example: 1800
+                    transportation:
+                      type: "object"
+                      properties:
+                        type:
+                          type: "string"
+                          example: "public_transport"
+                        max_changes:
+                          type: "object"
+                          properties:
+                            enabled:
+                              type: "boolean"
+                              example: true
+                            limit:
+                              type: "integer"
+                              example: 3
+                    properties:
+                      type: "array"
+                      items:
+                        type: "string"
+                        example: "travel_time"
+                        example: "distance"
+              arrival_searches:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "public transport to Trafalgar Square"
+                    coords:
+                      type: "object"
+                      properties:
+                        lat:
+                          type: "number"
+                          format: "float"
+                          example: 51.507609
+                        lng:
+                          type: "number"
+                          format: "float"
+                          example: -0.128315
+                    arrival_time:
+                      type: "string"
+                      example: "{{arrival_time}}"
+                    travel_time:
+                      type: "integer"
+                      example: 1800
+                    transportation:
+                      type: "object"
+                      properties:
+                        type:
+                          type: "string"
+                          example: "public_transport"
+                    properties:
+                      type: "array"
+                      items:
+                        type: "string"
+                        example: "travel_time"
+                        example: "distance"
+      responses:
+        200:
+          description: "Successful response"
+  /time-filter/postcode-districts:
+    post:
+      summary: "Post Time Filter Postcode Districts"
+      description: "Retrieve time filter results for postcode districts using various transportation methods."
+      parameters:
+        - name: "body"
+          in: "body"
+          required: true
+          schema:
+            type: "object"
+            properties:
+              departure_searches:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "public transport from Trafalgar Square"
+                    coords:
+                      type: "object"
+                      properties:
+                        lat:
+                          type: "number"
+                          format: "float"
+                          example: 51.507609
+                        lng:
+                          type: "number"
+                          format: "float"
+                          example: -0.128315
+                    departure_time:
+                      type: "string"
+                      example: "{{departure_time}}"
+                    travel_time:
+                      type: "integer"
+                      example: 1800
+                    transportation:
+                      type: "object"
+                      properties:
+                        type:
+                          type: "string"
+                          example: "public_transport"
+                        max_changes:
+                          type: "object"
+                          properties:
+                            enabled:
+                              type: "boolean"
+                              example: true
+                            limit:
+                              type: "integer"
+                              example: 5
+                    reachable_postcodes_threshold:
+                      type: "number"
+                      format: "float"
+                      example: 0.1
+                    properties:
+                      type: "array"
+                      items:
+                        type: "string"
+                        example: "coverage"
+                        example: "travel_time_reachable"
+                        example: "travel_time_all"
+              arrival_searches:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "public transport to Trafalgar Square"
+                    coords:
+                      type: "object"
+                      properties:
+                        lat:
+                          type: "number"
+                          format: "float"
+                          example: 51.507609
+                        lng:
+                          type: "number"
+                          format: "float"
+                          example: -0.128315
+                    arrival_time:
+                      type: "string"
+                      example: "{{arrival_time}}"
+                    travel_time:
+                      type: "integer"
+                      example: 1800
+                    transportation:
+                      type: "object"
+                      properties:
+                        type:
+                          type: "string"
+                          example: "public_transport"
+                    reachable_postcodes_threshold:
+                      type: "number"
+                      format: "float"
+                      example: 0.1
+                    properties:
+                      type: "array"
+                      items:
+                        type: "string"
+                        example: "coverage"
+                        example: "travel_time_reachable"
+                        example: "travel_time_all"
+      responses:
+        200:
+          description: "Successful response"
+  /time-filter/postcode-sectors:
+    post:
+      summary: "Post Time Filter Postcode Sectors"
+      description: "Retrieve time filter results for postcode sectors using various transportation methods."
+      parameters:
+        - name: "body"
+          in: "body"
+          required: true
+          schema:
+            type: "object"
+            properties:
+              departure_searches:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "public transport from Trafalgar Square"
+                    coords:
+                      type: "object"
+                      properties:
+                        lat:
+                          type: "number"
+                          format: "float"
+                          example: 51.507609
+                        lng:
+                          type: "number"
+                          format: "float"
+                          example: -0.128315
+                    departure_time:
+                      type: "string"
+                      example: "{{departure_time}}"
+                    travel_time:
+                      type: "integer"
+                      example: 1800
+                    transportation:
+                      type: "object"
+                      properties:
+                        type:
+                          type: "string"
+                          example: "public_transport"
+                        max_changes:
+                          type: "object"
+                          properties:
+                            enabled:
+                              type: "boolean"
+                              example: true
+                            limit:
+                              type: "integer"
+                              example: 3
+                    reachable_postcodes_threshold:
+                      type: "number"
+                      format: "float"
+                      example: 0.1
+                    properties:
+                      type: "array"
+                      items:
+                        type: "string"
+                        example: "coverage"
+                        example: "travel_time_reachable"
+                        example: "travel_time_all"
+              arrival_searches:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "public transport to Trafalgar Square"
+                    coords:
+                      type: "object"
+                      properties:
+                        lat:
+                          type: "number"
+                          format: "float"
+                          example: 51.507609
+                        lng:
+                          type: "number"
+                          format: "float"
+                          example: -0.128315
+                    arrival_time:
+                      type: "string"
+                      example: "{{arrival_time}}"
+                    travel_time:
+                      type: "integer"
+                      example: 1800
+                    transportation:
+                      type: "object"
+                      properties:
+                        type:
+                          type: "string"
+                          example: "public_transport"
+                    reachable_postcodes_threshold:
+                      type: "number"
+                      format: "float"
+                      example: 0.1
+                    properties:
+                      type: "array"
+                      items:
+                        type: "string"
+                        example: "coverage"
+                        example: "travel_time_reachable"
+                        example: "travel_time_all"
+      responses:
+        200:
+          description: "Successful response"
+  /routes:
+    post:
+      summary: "Post Routes"
+      description: "Retrieve routes using various transportation methods."
+      parameters:
+        - name: "body"
+          in: "body"
+          required: true
+          schema:
+            type: "object"
+            properties:
+              locations:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    id:
+                      type: "string"
+                      example: "{{departure_id}}"
+                    coords:
+                      type: "object"
+                      properties:
+                        lat:
+                          type: "number"
+                          format: "float"
+                          example: "{{departure_lat}}"
+                        lng:
+                          type: "number"
+                          format: "float"
+                          example: "{{departure_lon}}"
+              arrival_searches:
+                type: "array"
+                items:
