@@ -28,4 +28,4 @@ Do not provide a price range. If information is missing, ask for it.
 + Add the link as the only knowledge source
 + Disable Web Search
 
-<span style="color:red">You can find a detaild instruction how to build an agent in Exercise 1 and 2</span>
+<span style="color:red">You can find a detailed instruction how to build an agent in Exercise 1 and 2</span>
