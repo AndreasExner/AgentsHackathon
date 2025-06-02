@@ -54,8 +54,8 @@ Select this app only:
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_132139.png?raw=true" alt="image" width="40%" height="auto">
 
-Navigate to [https://windows365.microsoft.com/](https://windows365.microsoft.com/)
+Navigate to [https://windows365.microsoft.com/ent#/devices](https://windows365.microsoft.com/ent#/devices)
 
 <span style="color:red">In most cases you will be automatically signed-in to M365 with your own work profile, due to default browser settings. In this cases, sign-out and sign-in again with the provided credentials:</span>
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_133129.png?raw=true" alt="image" width="40%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-06-02_095628.png?raw=true" alt="image" width="40%" height="auto">
