@@ -2,11 +2,11 @@
 
 ## Sandbox environment setup guide
 
-You can access the environment by using a W365 desktop (recommended) or a separate (Edge) browser profile.
+You can access the environment by using a Windows 365 desktop (store app recommended or a separate (Edge) browser profile).
 
-### 1. Install the W365 Store App
+### 1. Install the Windows Store App
 
-The most convenient way to access the environment is W365. All you need is the “Windows App” from the Microsoft Store:
+The most convenient way to access the environment is the Windows app from the Microsoft Store:
 
 [https://apps.microsoft.com/detail/9N1F85V9T8BN?hl=de-degl=DEocid=pdpshare](https://apps.microsoft.com/detail/9N1F85V9T8BN?hl=de-de&gl=DE&ocid=pdpshare)
 
@@ -34,7 +34,7 @@ The credentials will be provided at the beginning of the event!
 
 ### 3. Edge browser profile (optional)
 
-Using the Edge browser profile on your *personal* device is **optional** and **not** recommended, and W365 should be the prefered solution.
+Using the Edge browser profile on your *personal* device is a **fall-back** and **not** recommended. The Windows App should be the prefered solution.
 
 First, open your Edge browser, open the list of profiles and add a new one:
 
@@ -54,7 +54,7 @@ Select this app only:
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_132139.png?raw=true" alt="image" width="40%" height="auto">
 
-Navigate to [https://www.microsoft365.com/](https://www.microsoft365.com/)
+Navigate to [https://windows365.microsoft.com/](https://windows365.microsoft.com/)
 
 <span style="color:red">In most cases you will be automatically signed-in to M365 with your own work profile, due to default browser settings. In this cases, sign-out and sign-in again with the provided credentials:</span>
 
