@@ -42,7 +42,7 @@ For M365 Copilot Agent Builder, please navigate to: [https://www.microsoft365.co
 
 ---
 
-For Copilot Studio, please navigate to [https://copilotstudio.microsoft.com/](https://copilotstudio.microsoft.com/).
+For Copilot Studio, please navigate to [https://copilotstudio.microsoft.com/](https://copilotstudio.microsoft.com/):
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/141200.png?raw=true" alt="image" width="75%" height="auto">
 
@@ -58,4 +58,7 @@ Add the link as SharePoint knowledge:
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/143449.png?raw=true" alt="image" width="75%" height="auto">
 
-Try to challange the agent with your questions. Be sure, the agent always tries to be sure about your role. 
+Try to challange the agent with your questions. Be sure, the agent always tries to be sure about your role. You can add starter prompts like:
+
+- Wie ist meine Arbeitszeitregelung?
+- Ich arbeite in der Produktion. Wie ist meine Arbeitszeitregelung?
