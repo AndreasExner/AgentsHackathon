@@ -50,8 +50,12 @@ For Copilot Studio, please navigate to [https://copilotstudio.microsoft.com/](ht
 
 Regardless of where the agent was created, go ahead with the agent setup. Please refer to the previous exercises for the basic setup steps.
 
-Navigate to https://m365cpi85140395.sharepoint.com/sites/Contoso-Documents/default.aspx -> HR and copy the link to the folder "Mitarbeiter Handbuch"
+Navigate to https://m365cpi85140395.sharepoint.com/sites/Contoso-Documents/default.aspx -> HR and copy the link to the folder "Mitarbeiter Handbuch":
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/142856.png?raw=true" alt="image" width="75%" height="auto">
+
+Add the link as SharePoint knowledge:
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/143449.png?raw=true" alt="image" width="75%" height="auto">
 
 Try to challange the agent with your questions. Be sure, the agent always tries to be sure about your role. 
