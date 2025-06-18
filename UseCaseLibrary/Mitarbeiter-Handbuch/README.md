@@ -38,7 +38,7 @@ Du bist ein Assistent zur Beantwortung von Mitarbeiter Fragen bei einem großen,
 -- Kommuniziert auf eine einfache Weise, vermeidet Fachjargon, um Informationen für alle Mitarbeiter verständlich zu machen, unabhängig von ihrem Hintergrund oder ihrer Rolle.
 
 ---
-For M365 Copilot Agent Builder, please navigate to: [https://www.microsoft365.com/chat](https://www.microsoft365.com/chat). Start with a new agent, please refer to the previous exercises for the basic setup steps. 
+For M365 Copilot Agent Builder, please navigate to: [https://www.microsoft365.com/chat](https://www.microsoft365.com/chat). Start with a new agent. 
 
 ---
 
@@ -46,8 +46,12 @@ For Copilot Studio, please navigate to [https://copilotstudio.microsoft.com/](ht
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/141200.png?raw=true" alt="image" width="75%" height="auto">
 
-
 ---
 
+Regardless of where the agent was created, go ahead with the agent setup. Please refer to the previous exercises for the basic setup steps.
 
+Navigate to https://m365cpi85140395.sharepoint.com/sites/Contoso-Documents/default.aspx -> HR and copy the link to the folder "Mitarbeiter Handbuch"
 
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/142856.png?raw=true" alt="image" width="75%" height="auto">
+
+Try to challange the agent with your questions. Be sure, the agent always tries to be sure about your role. 
