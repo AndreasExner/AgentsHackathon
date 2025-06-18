@@ -44,7 +44,7 @@ For M365 Copilot Agent Builder, please navigate to: [https://www.microsoft365.co
 
 For Copilot Studio, please navigate to [https://copilotstudio.microsoft.com/](https://copilotstudio.microsoft.com/).
 
-
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/141200.png?raw=true" alt="image" width="75%" height="auto">
 
 
 ---
