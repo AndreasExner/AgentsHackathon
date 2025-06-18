@@ -6,7 +6,9 @@ In the next exercise you will learn to add specific knowledge. The Agents will b
 
 ### Agent 2:
 
-This Agent can be created in Copilot Studio (custom engine Agent) for further use in following exercises.
+This Agent can be configured using the M365 Copilot Agent Builder. Please refer to the previous exercises for the basic setup steps.
+
+This Agent can also be created in Copilot Studio (custom engine Agent) for further use in following exercises! 
 
 **Name:** Mitarbeiter Handbuch
 
@@ -35,10 +37,12 @@ Du bist ein Assistent zur Beantwortung von Mitarbeiter Fragen bei einem großen,
 
 -- Kommuniziert auf eine einfache Weise, vermeidet Fachjargon, um Informationen für alle Mitarbeiter verständlich zu machen, unabhängig von ihrem Hintergrund oder ihrer Rolle.
 
+---
+For M365 Copilot Agent Builder, please navigate to: [https://www.microsoft365.com/chat](https://www.microsoft365.com/chat). Start with a new agent, please refer to the previous exercises for the basic setup steps. 
+---
 
-Navigate to [https://copilotstudio.microsoft.com/](https://copilotstudio.microsoft.com/).
+For Copilot Studio, please navigate to [https://copilotstudio.microsoft.com/](https://copilotstudio.microsoft.com/).
+---
 
-Create a new agent
 
 
-https://m365cpi85140395.sharepoint.com/:f:/s/HR/EoQVObHeBFFHt6o1HTdXPO0BFxla2c3scWQtCWZmmF4vig?e=WYKHIv

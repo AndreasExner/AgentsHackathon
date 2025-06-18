@@ -6,6 +6,8 @@ In the next exercise you will learn to add specific knowledge. The Agents will b
 
 ### Agent 1:
 
+This Agent will be configured using the M365 Copilot Agent Builder. Please refer to the previous exercises for the basic setup steps.
+
 **Name:** Finance Advisor - Umsatzsteuer
 
 **Description:** I'm here to help with the German Umsatzsteuer.
@@ -18,7 +20,7 @@ Create a new agent
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Umsatzsteuer-Agent/142541.png?raw=true" alt="image" width="75%" height="auto">
 
-Navigate to https://m365cpi76307077.sharepoint.com/sites/Finance/Shared%20Documents/Forms/AllItems.aspx and copy the link to "Handbuch zur Umsatzsteuer 2025.docx"
+Navigate to https://m365cpi85140395.sharepoint.com/sites/Contoso-Documents/default.aspx -> Finance -> TAX and copy the link to "Handbuch zur Umsatzsteuer 2025.docx"
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Umsatzsteuer-Agent/142256.png?raw=true" alt="image" width="75%" height="auto">
 
@@ -29,3 +31,5 @@ Add the knowledge to the agent:
 Optional: add starter prompts:
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Umsatzsteuer-Agent/141524.png?raw=true" alt="image" width="75%" height="auto">
+
+Again, the instructions are very rudimentary. Feel free to optimize them.

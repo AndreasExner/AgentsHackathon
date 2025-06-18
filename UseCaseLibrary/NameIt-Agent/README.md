@@ -4,6 +4,8 @@
 
 Let's create the first agent. Name It! will help you finding names for things in creative ways. Be sure to give it at least three skills (e.g. naming in general, a project, a top secret agent)
 
+This Agent will be configured using the M365 Copilot Agent Builder.
+
 **Name:** Name It!
 
 **Description:** I'm here to find you creative name for almost anything!
@@ -36,4 +38,4 @@ Test your agent
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/NameIt-Agent/161448.png?raw=true" alt="image" width="75%" height="auto">
 
-Congratulations on your first agent. Feel free to play around with the instructions to see how an answer changes. 
+Congratulations on your first agent. Feel free to play around with the instructions to see how an answer changes. Make the instruction more precise, change language / dialect.
