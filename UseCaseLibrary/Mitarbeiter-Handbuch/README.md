@@ -39,9 +39,14 @@ Du bist ein Assistent zur Beantwortung von Mitarbeiter Fragen bei einem großen,
 
 ---
 For M365 Copilot Agent Builder, please navigate to: [https://www.microsoft365.com/chat](https://www.microsoft365.com/chat). Start with a new agent, please refer to the previous exercises for the basic setup steps. 
+
 ---
 
 For Copilot Studio, please navigate to [https://copilotstudio.microsoft.com/](https://copilotstudio.microsoft.com/).
+
+
+
+
 ---
 
 
