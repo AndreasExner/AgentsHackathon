@@ -64,9 +64,14 @@ In exercise 2, you may have noticed that the agent did not correctly ask for the
 
 Add a new topic: 
 
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/090041.png?raw=true" alt="image" width="75%" height="auto">
+
 **Name:** Arbereitsbereich
 
 **Prompt:**
 
 Benutze dieses Tool um herauszufinden, in welchem Arbeitsbereich der Mitarbeitende tätig ist. Mögliche Arbeitsbereiche sind Produktion und Büro. Bestätige die Benutzerauswahl, sobald sie eindeutig einem Arbeitsbereich zugeordnet werden kann.
 
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/101412.png?raw=true" alt="image" width="75%" height="auto">
+
+Test the Agent again.
