@@ -12,11 +12,10 @@ You will find anything you need in this repository. Please start with the setup 
 + [Exercise #1: Agent Instructions](<UseCaseLibrary/NameIt-Agent/README.md>)
 + [Exercise #2: Agent 1 Knowledge](<UseCaseLibrary/Umsatzsteuer-Agent/README.md>)
 + [Exercise #2: Agent 2 Knowledge](<UseCaseLibrary/Mitarbeiter-Handbuch/README.md>)
-+ Exercise #3: Agent Topics
++ [Exercise #3: Agent Topics](<UseCaseLibrary/Mitarbeiter-Handbuch/README.md#exercise-3-agent-topics>)
 + Exercise #4: Agent Tools (Actions)
 
 **Afternoon**
 
 
 + Exercise #4: Agent Hackathon
-
