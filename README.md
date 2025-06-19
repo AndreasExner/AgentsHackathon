@@ -6,10 +6,17 @@
 
 You will find anything you need in this repository. Please start with the setup guide to ensure your individual readiness for the exercises. 
 
+**Morning**
+
 + [Sandbox environment setup guide](<Setup/Sandbox environment setup guide.md>)
 + [Exercise #1: Agent Instructions](<UseCaseLibrary/NameIt-Agent/README.md>)
 + [Exercise #2: Agent 1 Knowledge](<UseCaseLibrary/Umsatzsteuer-Agent/README.md>)
-+ [Exercise #2: Agent 2 Knowledge (optional)](<UseCaseLibrary/Mitarbeiter-Handbuch/README.md>)
-+ Exercise #3: Agent Actions
++ [Exercise #2: Agent 2 Knowledge](<UseCaseLibrary/Mitarbeiter-Handbuch/README.md>)
++ Exercise #3: Agent Topics
++ Exercise #4: Agent Tools (Actions)
+
+**Afternoon**
+
+
 + Exercise #4: Agent Hackathon
 
