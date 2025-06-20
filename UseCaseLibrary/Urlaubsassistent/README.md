@@ -96,3 +96,34 @@ After creating the topic, the variables must be set to "global". We need them la
 
 Now we come to the tools (actions). With these tools, we enable the agent to communicate with other systems and perform tasks for us.
 
+IMPORTANT: A tool will require a connection. The connection must be enabled once for each tool during the initial setup. This is NOT the same connection used during test or execution. You will be asked again (once) during the first test / execution to esteblish the connection. 
+
+Add a new tool:
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/094022.png?raw=true" alt="image" width="75%" height="auto">
+
+Search for "Get My Profile":
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/094340.png?raw=true" alt="image" width="75%" height="auto">
+
+Select an existing connection or create a new one. Go ahead with "add and configure":
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/094555.png?raw=true" alt="image" width="75%" height="auto">
+
+Change name and descripton as required. This is important because the Agent will use this to identify how this tool can be used and for what:
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/095059.png?raw=true" alt="image" width="75%" height="auto">
+
+Add new Tool and search for "Get Items". Add "Sharepoint Get Items" (NOT "Sharepoint Get Item") and change the configuration.
+
+IMPORTANT: Change "Site Address" first. Than select  "Custom Value" for the "List Name" and select the correct list. KLICK INTO THE TEXT BOX. The drop-down arrow is currentyl not working (looks like a bug)
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/100302.png?raw=true" alt="image" width="75%" height="auto">
+
+Add new Tool and search for "Create Item". Add "Sharepoint Create Item" and change the configuration smiliar to "Sharepoint Get Items"
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/100646.png?raw=true" alt="image" width="75%" height="auto">
+
+Add new Tool and search for "Delete Item". Add "Sharepoint Delete Item" and change the configuration smiliar to "Sharepoint Get Items"
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/101210.png?raw=true" alt="image" width="75%" height="auto">
