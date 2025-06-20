@@ -30,11 +30,11 @@ Navigate to [https://www.microsoft365.com/chat](https://www.microsoft365.com/cha
 
 Create a new agent
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/UseCaseLibrary/Umsatzsteuer-Assistent-Web/113154.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Umsatzsteuer-Assistent-Web/113154.png?raw=true" alt="image" width="75%" height="auto">
 
 Add https://usth.bundesfinanzministerium.de/usth/2023 as knowledge:
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/UseCaseLibrary/Umsatzsteuer-Assistent-Web/113446.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Umsatzsteuer-Assistent-Web/113446.png?raw=true" alt="image" width="75%" height="auto">
 
 Optional: add starter prompts
 
