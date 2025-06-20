@@ -60,7 +60,7 @@ Frage die notwendigen Daten für einen neuen Abwesenheitsantrag ab. Die nötigen
 
 After creating the topic, the variables must be set to "global":
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/143449.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/091547.png?raw=true" alt="image" width="75%" height="auto">
 
 ---
 
