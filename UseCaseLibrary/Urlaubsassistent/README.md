@@ -66,6 +66,9 @@ Change the agent behavior:
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/093134.png?raw=true" alt="image" width="75%" height="auto">
 
+Ensure, that the Agent only use the provided knowledge:
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/093339.png?raw=true" alt="image" width="75%" height="auto">
 
 ---
 
