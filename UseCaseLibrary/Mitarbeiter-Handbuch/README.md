@@ -50,6 +50,21 @@ Add the link as SharePoint knowledge:
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/143449.png?raw=true" alt="image" width="75%" height="auto">
 
+Finally, we have to change some setting for the agent.
+
+Open "Settings":
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/092844.png?raw=true" alt="image" width="75%" height="auto">
+
+Change the agent behavior:
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/093134.png?raw=true" alt="image" width="75%" height="auto">
+
+Ensure, that the Agent only use the provided knowledge:
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/093339.png?raw=true" alt="image" width="75%" height="auto">
+
+
 Try to challange the agent with your questions. Be sure, the agent always tries to be sure about your role. You can add starter prompts like:
 
 - Wie ist meine Arbeitszeitregelung?

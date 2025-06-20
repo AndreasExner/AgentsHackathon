@@ -127,3 +127,6 @@ Add new Tool and search for "Create Item". Add "Sharepoint Create Item" and chan
 Add new Tool and search for "Delete Item". Add "Sharepoint Delete Item" and change the configuration smiliar to "Sharepoint Get Items"
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/101210.png?raw=true" alt="image" width="75%" height="auto">
+
+You can review the "Urlaubskalender" in [SharePoint](https://m365cpi85140395.sharepoint.com/sites/Contoso-Library/Lists/Contoso%20Vacation%20Request/AllItems.aspx?viewid=eb134826%2D8fcc%2D41a7%2Dbb7a%2D60b6d191df95)
+---
