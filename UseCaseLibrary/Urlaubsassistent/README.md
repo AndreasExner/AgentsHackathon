@@ -50,6 +50,27 @@ Du sollst für für das Löschen vorhandener Anträge folgende Schritte ausführ
 
 ---
 
+Please navigate to [https://copilotstudio.microsoft.com/](https://copilotstudio.microsoft.com/):
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/141200.png?raw=true" alt="image" width="75%" height="auto">
+
+Go ahead with the agent setup. Please refer to the previous exercises for the basic setup steps.
+
+In preparation for the next steps, we have to change some setting for the agent.
+
+Open "Settings":
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/092844.png?raw=true" alt="image" width="75%" height="auto">
+
+Change the agent behavior:
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/093134.png?raw=true" alt="image" width="75%" height="auto">
+
+
+---
+
+We need a "Topic" to guide the user through the question about new requests.
+
 **Topics:**
 
 **Name:** Neuer Abwesenheitsantrag
@@ -58,9 +79,17 @@ Du sollst für für das Löschen vorhandener Anträge folgende Schritte ausführ
 
 Frage die notwendigen Daten für einen neuen Abwesenheitsantrag ab. Die nötigen Informationen sind: "Art der Abwesenheit (Paid Vacation, Spare Time, Unpaid Vacation)", "Dauer der Abwesenheit (Tage)", "Erster Tag der Abwesenheit (Datum)" und nur wenn die Dauer größer ist als 1 Tag: "Letzter Tag der Abwesenheit (Datum)"
 
-After creating the topic, the variables must be set to "global":
+Create a new topic:
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/091547.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/092412.png?raw=true" alt="image" width="75%" height="auto">
+
+After creating the topic, the variables must be set to "global". We need them later:
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/091547.png?raw=true" alt="image" width="75%" height="auto">
 
 ---
+
+**Tools (Actions**)
+
+Now we come to the tools (actions). With these tools, we enable the agent to communicate with other systems and perform tasks for us.
 
