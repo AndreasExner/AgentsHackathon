@@ -6,6 +6,8 @@ You can access the environment by using a Windows 365 desktop (store app recomme
 
 ### 1. Install the Windows Store App
 
+<span style="color:red">Please reach out for your internal IT department for support with the Windows app. It is very common that you are not allowed to install apps from the Windows Store.</span>
+
 The most convenient way to access the environment is the Windows app from the Microsoft Store:
 
 [https://apps.microsoft.com/detail/9N1F85V9T8BN?hl=de-degl=DEocid=pdpshare](https://apps.microsoft.com/detail/9N1F85V9T8BN?hl=de-de&gl=DE&ocid=pdpshare)
@@ -18,11 +20,13 @@ For MacOS, please follow the instructions: [Use the Windows app to connect to a 
 
 The credentials will be provided at the beginning of the event!
 
-<span style="color:red">If you are already using the Windows App you have to sign-out first!</span>
-
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_124916.png?raw=true" alt="image" width="75%" height="auto">
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_124946.png?raw=true" alt="image" width="75%" height="auto">
+
+<span style="color:red">In most cases you are automatically signed in. Please add a new account first!</span>
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-06-25_091322.png?raw=true" alt="image" width="40%" height="auto">
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_125139.png?raw=true" alt="image" width="40%" height="auto">
 
