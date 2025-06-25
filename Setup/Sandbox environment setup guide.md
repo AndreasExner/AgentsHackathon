@@ -26,7 +26,7 @@ The credentials will be provided at the beginning of the event!
 
 <span style="color:red">In most cases you are automatically signed in. Please add a new account first!</span>
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-06-25_091322.png?raw=true" alt="image" width="40%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-06-25_091322.png?raw=true" alt="image" width="75%" height="auto">
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Screenshot_2025-04-30_125139.png?raw=true" alt="image" width="40%" height="auto">
 
