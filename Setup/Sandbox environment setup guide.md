@@ -6,7 +6,7 @@ You can access the environment by using a Windows 365 desktop (store app recomme
 
 ### 1. Install the Windows Store App
 
-<span style="color:red">Please reach out for your internal IT department for support with the Windows app. It is very common that you are not allowed to install apps from the Windows Store.</span>
+<span style="color:red">**Please reach out for your internal IT department for support with the Windows app. It is very common that you are not allowed to install apps from the Windows Store.**</span>
 
 The most convenient way to access the environment is the Windows app from the Microsoft Store:
 
