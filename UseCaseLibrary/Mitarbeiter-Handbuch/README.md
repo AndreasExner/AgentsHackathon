@@ -1,6 +1,6 @@
 # Agents Hackathon
 
-## Exercise 2: Agent Knowledge
+## Exercise 3: Agent Knowledge
 
 In the next exercise you will learn to add specific knowledge. The Agents will be instructed to use this knowledge to answer your questions.
 
@@ -71,11 +71,11 @@ Try to challange the agent with your questions. Be sure, the agent always tries 
 - Ich arbeite in der Produktion. Wie ist meine Arbeitszeitregelung?
 
 ---
-# STOP HERE (for exercise 2)
+# STOP HERE (for exercise 3)
 
-## Exercise 3: Agent Topics
+## Exercise 4: Agent Topics
 
-In exercise 2, you may have noticed that the agent did not correctly ask for the employee's work area.
+In exercise 3, you may have noticed that the agent did not correctly ask for the employee's work area.
 
 Add a new topic: 
 
