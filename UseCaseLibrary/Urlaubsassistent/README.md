@@ -114,9 +114,15 @@ Change name and descripton as required. This is important because the Agent will
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/095059.png?raw=true" alt="image" width="75%" height="auto">
 
+DON'T FORGET TO PRESS SAVE!
+
 Add new Tool and search for "Get Items". Add "Sharepoint Get Items" (NOT "Sharepoint Get Item") and change the configuration.
 
-IMPORTANT: Change "Site Address" first. Than select  "Custom Value" for the "List Name" and select the correct list. KLICK INTO THE TEXT BOX. The drop-down arrow is currentyl not working (looks like a bug)
+Description: "Benutze dieses Tool um Einträge von der Abwesenheits- und Urlaubsliste zu lesen."
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/134641.png?raw=true" alt="image" width="75%" height="auto">
+
+IMPORTANT: Change "Site Address" first. Than select  "Set as a Value" for the "List Name" and select the correct list. KLICK INTO THE TEXT BOX (not the tree dots)
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/133811.png?raw=true" alt="image" width="75%" height="auto">
 
