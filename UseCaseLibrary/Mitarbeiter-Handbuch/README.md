@@ -38,7 +38,9 @@ Du bist ein Assistent zur Beantwortung von Mitarbeiter Fragen bei einem großen,
 
 Please navigate to [https://copilotstudio.microsoft.com/](https://copilotstudio.microsoft.com/):
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/141200.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/131001.png?raw=true" alt="image" width="75%" height="auto">
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/131141.png?raw=true" alt="image" width="75%" height="auto">
 
 Go ahead with the agent setup. Please refer to the previous exercises for the basic setup steps.
 
@@ -49,6 +51,8 @@ Navigate to https://m365cpi85140395.sharepoint.com/sites/Contoso-Library -> HR a
 Add the link as SharePoint knowledge:
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/143449.png?raw=true" alt="image" width="75%" height="auto">
+
+Description: This knowledge source provides information about Mitarbeiter Handbuch and Tarifvertrag.
 
 Finally, we have to change some setting for the agent.
 
