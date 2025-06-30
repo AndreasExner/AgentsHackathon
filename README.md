@@ -12,8 +12,7 @@ You will find anything you need in this repository. Please start with the setup 
 + [Exercise #1: Agent Instructions](UseCaseLibrary/NameIt-Agent/README.md)
 + [Exercise #2: Agent 1 Knowledge](UseCaseLibrary/Umsatzsteuer-Assistent-Web/README.md)
 + [Exercise #3: Agent 2 Knowledge](UseCaseLibrary/Mitarbeiter-Handbuch/README.md)
-+ [Exercise #4: Agent Topics](UseCaseLibrary/Mitarbeiter-Handbuch/README.md#exercise-3-agent-topics)
-+ [Exercise #5: Agent Tools (Actions)](UseCaseLibrary/Urlaubsassistent/README.md)
++ [Exercise #4: Agent Tools (Actions)](UseCaseLibrary/Urlaubsassistent/README.md)
 
 **Afternoon**
 

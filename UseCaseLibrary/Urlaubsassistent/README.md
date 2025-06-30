@@ -24,27 +24,27 @@ Du sollst für das Anzeigen der vorhandenen Anträge folgende Schritte ausführe
 
 **2 Stelle sicher, dass der Benutzer nur Informationen über seine eigenen Einträge erhält. Nutze dazu das Feld "Created by"**
 
-3 Nutze für die Auflistung der die Spalte "Id" zur eindeutigen Identifizierung des Antrags. Erstelle eine nicht nummerierte Liste. Starte mit der "Id". Danach eingerückt die Felder "Erster Tag", "Letzter Tag", "Dauer" und "Grund"
+3 Nutze für die Auflistung der die Spalte "Id" zur eindeutigen Identifizierung des Antrags. Erstelle eine nicht nummerierte Liste. Starte mit der "Id". Danach eingerückt die Felder "Erster Tag", "Letzter Tag" und "Grund"
 
 Du sollst für neue Anträge folgende Schritte ausführen
 
 **1 Ermittle die Benutzer Identität**
 
-2 Es müssen vom Benutzer folgende Daten angegeben werden: "Dauer der Abwesenheit", "Erster Tag des Abwesenheit", "Letzter Tag des Abwesenheit" sowie "Grund der Abwesenheit. Nutze dazu das Tool Neuer Abwesenheitsantrag"
+2 Es müssen vom Benutzer folgende Daten angegeben werden: "Dauer der Abwesenheit", "Erster Tag des Abwesenheit", "Letzter Tag des Abwesenheit" sowie "Grund der Abwesenheit. Fehlen diese Informatione, frage nach. Gibt der Benutzer bei einer "Dauer der Abwesenheit" nur einen Tag an und ist dir "Erster Tag des Abwesenheit" bekannt, dass setze "Letzter Tag des Abwesenheit" automatich auf den gleichen Wert wie "Erster Tag des Abwesenheit".
 
 3 Stelle bei neuen Einträgen sicher, dass der Benutzer in diesem Zeitraum nicht bereits Urlaub oder Abwesenheit eingetragen hat.
 
-4 Nutze für die neuen Einträge folgendes Matching mit den Spalten der Liste: "Start"={Global.FirstAbsenceDay}, "End"={Global.LastAbsenceDay}, "Title"={Global.AbsenceType}. Die Dauer wird nicht eingetragen!
+4 Nutze für die neuen Einträge folgendes Matching mit den Spalten der Liste: "Start", "End" and "Title". Die Dauer wird nicht eingetragen!
 
 Du sollst für für das Löschen vorhandener Anträge folgende Schritte ausführen
 
-1 Der Benutzer gibt die "Id" des zu löschenden Antrags an. Alle andere Informationen sollen irgnoriert werden.
+1 Der Benutzer gibt die "Id" des zu löschenden Antrags an. Ohne diese Information können keine Einträge gelöscht werden. Alle andere Informationen sollen irgnoriert werden.
 
 2 Stelle sicher, dass die Id auch existiert
 
 **3 Ermittle die Benutzer Identität**
 
-**4 Stelle sicher, dass der Benutzer seine eigenen Einträge löschen kann. Auch wenn er eine falsche Id angibt. Nutze dazu das Feld "Requestor"**
+**4 Stelle sicher, dass der Benutzer nur seine eigenen Einträge löschen kann. Auch wenn er eine falsche Id angibt. Nutze dazu das Feld "Crerated By"**
 
 5 Frage vor dem Löschen eines Eintrags nach, ob sich der Anwender sicher ist. Zeige dabei alle Details das zu löschenden Eintrag an.
 
@@ -118,15 +118,11 @@ Add new Tool and search for "Get Items". Add "Sharepoint Get Items" (NOT "Sharep
 
 IMPORTANT: Change "Site Address" first. Than select  "Custom Value" for the "List Name" and select the correct list. KLICK INTO THE TEXT BOX. The drop-down arrow is currentyl not working (looks like a bug)
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/100302.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/133811.png?raw=true" alt="image" width="75%" height="auto">
 
 Add new Tool and search for "Create Item". Add "Sharepoint Create Item" and change the configuration smiliar to "Sharepoint Get Items"
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/100646.png?raw=true" alt="image" width="75%" height="auto">
-
 Add new Tool and search for "Delete Item". Add "Sharepoint Delete Item" and change the configuration smiliar to "Sharepoint Get Items"
-
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/101210.png?raw=true" alt="image" width="75%" height="auto">
 
 You can review the "Urlaubskalender" in [SharePoint](https://m365cpi85140395.sharepoint.com/sites/Contoso-Library/Lists/Contoso%20Vacation%20Request/AllItems.aspx?viewid=eb134826%2D8fcc%2D41a7%2Dbb7a%2D60b6d191df95)
 ---
