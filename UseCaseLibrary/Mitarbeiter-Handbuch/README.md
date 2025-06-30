@@ -50,6 +50,8 @@ Navigate to https://m365cpi85140395.sharepoint.com/sites/Contoso-Library -> HR a
 
 Add the link as SharePoint knowledge:
 
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/131719.png?raw=true" alt="image" width="75%" height="auto">
+
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/143449.png?raw=true" alt="image" width="75%" height="auto">
 
 Description: This knowledge source provides information about Mitarbeiter Handbuch and Tarifvertrag.
