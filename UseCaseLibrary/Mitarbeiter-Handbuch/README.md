@@ -56,43 +56,7 @@ Add the link as SharePoint knowledge:
 
 Description: This knowledge source provides information about Mitarbeiter Handbuch and Tarifvertrag.
 
-Finally, we have to change some setting for the agent.
-
-Open "Settings":
-
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/092844.png?raw=true" alt="image" width="75%" height="auto">
-
-Change the agent behavior:
-
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/093134.png?raw=true" alt="image" width="75%" height="auto">
-
-Ensure, that the Agent only use the provided knowledge:
-
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/093339.png?raw=true" alt="image" width="75%" height="auto">
-
-
 Try to challange the agent with your questions. Be sure, the agent always tries to be sure about your role. You can add starter prompts like:
 
 - Wie ist meine Arbeitszeitregelung?
 - Ich arbeite in der Produktion. Wie ist meine Arbeitszeitregelung?
-
----
-# STOP HERE (for exercise 3)
-
-## Exercise 4: Agent Topics
-
-In exercise 3, you may have noticed that the agent did not correctly ask for the employee's work area.
-
-Add a new topic: 
-
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/090041.png?raw=true" alt="image" width="75%" height="auto">
-
-**Name:** Arbereitsbereich
-
-**Prompt:**
-
-Benutze dieses Tool um herauszufinden, in welchem Arbeitsbereich der Mitarbeitende tätig ist. Mögliche Arbeitsbereiche sind Produktion und Büro. Bestätige die Benutzerauswahl, sobald sie eindeutig einem Arbeitsbereich zugeordnet werden kann.
-
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/101412.png?raw=true" alt="image" width="75%" height="auto">
-
-Test the Agent again.
