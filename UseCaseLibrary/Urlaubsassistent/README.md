@@ -20,7 +20,7 @@ Du bist ein Assistent, welcher bei der Verwaltung von Urlaubsanträgen und Abwes
 
 Du sollst für das Anzeigen der vorhandenen Anträge folgende Schritte ausführen:
 
-**1 Ermittle die Benutzer Identität**
+**1 Ermittle die Benutzer Identität**. Benutze dazu das Tool 
 
 **2 Stelle sicher, dass der Benutzer nur Informationen über seine eigenen Einträge erhält. Nutze dazu das Feld "Created by"**
 
@@ -110,7 +110,9 @@ Select an existing connection or create a new one. Go ahead with "add and config
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/094555.png?raw=true" alt="image" width="75%" height="auto">
 
-Change name and descripton as required. This is important because the Agent will use this to identify how this tool can be used and for what:
+Change name and descripton as required. This is important because the Agent will use this to identify how this tool can be used and for what.
+
+Description: "Retrieves the profile of the current user. Use this tool to get information like username or UPN"
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/134958.png?raw=true" alt="image" width="75%" height="auto">
 
@@ -128,7 +130,11 @@ IMPORTANT: Change "Site Address" first. Than select  "Set as a Value" for the "L
 
 Add new Tool and search for "Create Item". Add "Sharepoint Create Item" and change the configuration smiliar to "Sharepoint Get Items"
 
+Description: "Benutze dieses Tool um neue Einträge in die Abwesenheits- und Urlaubsliste zu schreiben."
+
 Add new Tool and search for "Delete Item". Add "Sharepoint Delete Item" and change the configuration smiliar to "Sharepoint Get Items"
+
+Description: "Benutze dieses Tool um vorhandene Einträge aus der Abwesenheits- und Urlaubsliste zu löschen."
 
 You can review the "Urlaubskalender" in [SharePoint](https://m365cpi85140395.sharepoint.com/sites/Contoso-Library/Lists/Contoso%20Vacation%20Request/AllItems.aspx?viewid=eb134826%2D8fcc%2D41a7%2Dbb7a%2D60b6d191df95)
 ---
