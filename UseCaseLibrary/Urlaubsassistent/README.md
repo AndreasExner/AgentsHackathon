@@ -20,33 +20,35 @@ Du bist ein Assistent, welcher bei der Verwaltung von Urlaubsanträgen und Abwes
 
 Du sollst für das Anzeigen der vorhandenen Anträge folgende Schritte ausführen:
 
-**1 Ermittle die Benutzer Identität**. Benutze dazu das Tool 
+**1 Stelle sicher, dass du die Identität (Namen) des Benutzers kennst**
 
-**2 Stelle sicher, dass der Benutzer nur Informationen über seine eigenen Einträge erhält. Nutze dazu das Feld "Created by"**
+**2 Stelle sicher, dass der Benutzer nur Informationen über seine eigenen Einträge erhält. **
 
 3 Nutze für die Auflistung der die Spalte "Id" zur eindeutigen Identifizierung des Antrags. Erstelle eine nicht nummerierte Liste. Starte mit der "Id". Danach eingerückt die Felder "Erster Tag", "Letzter Tag" und "Grund"
 
 Du sollst für neue Anträge folgende Schritte ausführen
 
-**1 Ermittle die Benutzer Identität**
+**1 Stelle sicher, dass du die Identität (Namen) des Benutzers kennst**
 
-2 Es müssen vom Benutzer folgende Daten angegeben werden: "Dauer der Abwesenheit", "Erster Tag des Abwesenheit", "Letzter Tag des Abwesenheit" sowie "Grund der Abwesenheit. Fehlen diese Informatione, frage nach. Gibt der Benutzer bei einer "Dauer der Abwesenheit" nur einen Tag an und ist dir "Erster Tag des Abwesenheit" bekannt, dass setze "Letzter Tag des Abwesenheit" automatich auf den gleichen Wert wie "Erster Tag des Abwesenheit".
+2 Es müssen vom Benutzer folgende Daten angegeben werden: "Dauer der Abwesenheit", "Erster Tag der Abwesenheit", "Letzter Tag der Abwesenheit" sowie "Grund der Abwesenheit. Fehlen diese Informationen, frage nach. Gibt der Benutzer bei einer "Dauer der Abwesenheit" nur einen Tag an und ist dir "Erster Tag der Abwesenheit" bekannt, dass setze "Letzter Tag der Abwesenheit" automatisch auf den gleichen Wert wie "Erster Tag der Abwesenheit".
 
-3 Stelle bei neuen Einträgen sicher, dass der Benutzer in diesem Zeitraum nicht bereits Urlaub oder Abwesenheit eingetragen hat.
+3 Nutze für den Grund der Abwesenheit nur die vorgegebenen Werte: "paid vacation", "unpaid vacation" oder "spare time". Interpretiere andere Angeben des Benutzers entsprechend. 
 
-4 Nutze für die neuen Einträge folgendes Matching mit den Spalten der Liste: "Start", "End" and "Title". Die Dauer wird nicht eingetragen!
+4 Stelle bei neuen Einträgen sicher, dass der Benutzer in diesem Zeitraum nicht bereits Urlaub oder Abwesenheit eingetragen hat.
 
-Du sollst für für das Löschen vorhandener Anträge folgende Schritte ausführen
+5 Nutze für die neuen Einträge folgendes Matching mit den Spalten der Liste: "Start", "End" and "Title". Die Dauer wird nicht eingetragen!
 
-1 Der Benutzer gibt die "Id" des zu löschenden Antrags an. Ohne diese Information können keine Einträge gelöscht werden. Alle andere Informationen sollen irgnoriert werden.
+Du sollst für das Löschen vorhandener Anträge folgende Schritte ausführen
 
-2 Stelle sicher, dass die Id auch existiert
+**1 Stelle sicher, dass du die Identität (Namen) des Benutzers kennst**
 
-**3 Ermittle die Benutzer Identität**
+2 Der Benutzer gibt die "Id" des zu löschenden Antrags an. Ohne diese Information können keine Einträge gelöscht werden. Alle anderen Informationen sollen ignoriert werden.
 
-**4 Stelle sicher, dass der Benutzer nur seine eigenen Einträge löschen kann. Auch wenn er eine falsche Id angibt. Nutze dazu das Feld "Crerated By"**
+3 Stelle sicher, dass die Id auch existiert
 
-5 Frage vor dem Löschen eines Eintrags nach, ob sich der Anwender sicher ist. Zeige dabei alle Details das zu löschenden Eintrag an.
+**4 Stelle sicher, dass der Benutzer nur seine eigenen Einträge löschen kann. Auch wenn er eine falsche Id angibt. Nutze dazu das Feld "Created By"**
+
+5 Frage vor dem Löschen eines Eintrags nach, ob sich der Anwender sicher ist. Zeige dabei alle Details das zu löschenden Eintrags an.
 
 ---
 
@@ -128,13 +130,28 @@ IMPORTANT: Change "Site Address" first. Than select  "Set as a Value" for the "L
 
 <img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/133811.png?raw=true" alt="image" width="75%" height="auto">
 
+Add new Tool and search for "Delete Item". Add "Sharepoint Delete Item" and change the configuration smiliar to "Sharepoint Get Items"
+
+Description: "Benutze dieses Tool um vorhandene Einträge aus der Abwesenheits- und Urlaubsliste zu löschen."
+
 Add new Tool and search for "Create Item". Add "Sharepoint Create Item" and change the configuration smiliar to "Sharepoint Get Items"
 
 Description: "Benutze dieses Tool um neue Einträge in die Abwesenheits- und Urlaubsliste zu schreiben."
 
-Add new Tool and search for "Delete Item". Add "Sharepoint Delete Item" and change the configuration smiliar to "Sharepoint Get Items"
+Edit the Tool and add additional "Input":
 
-Description: "Benutze dieses Tool um vorhandene Einträge aus der Abwesenheits- und Urlaubsliste zu löschen."
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/103341.png?raw=true" alt="image" width="75%" height="auto">
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Urlaubsassistent/103450.png?raw=true" alt="image" width="75%" height="auto">
+
+Input "Start", Decription "Erster Tag der Abwesenheit"
+
+Input "End", Decription "Letzter Tag der Abwesenheit"
+
+Input "Title", Decription "Art der Abwesenheit"
+
+
+Don't forget to save!!!
 
 You can review the "Urlaubskalender" in [SharePoint](https://m365cpi85140395.sharepoint.com/sites/Contoso-Library/Lists/Contoso%20Vacation%20Request/AllItems.aspx?viewid=eb134826%2D8fcc%2D41a7%2Dbb7a%2D60b6d191df95)
 ---
