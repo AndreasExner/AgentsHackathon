@@ -54,7 +54,9 @@ Du sollst für das Löschen vorhandener Anträge folgende Schritte ausführen
 
 Please navigate to [https://copilotstudio.microsoft.com/](https://copilotstudio.microsoft.com/):
 
-<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/141200.png?raw=true" alt="image" width="75%" height="auto">
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/131141.png?raw=true" alt="image" width="75%" height="auto">
+
+<img src="https://github.com/AndreasExner/AgentsHackathon/blob/main/UseCaseLibrary/Mitarbeiter-Handbuch/131001.png?raw=true" alt="image" width="75%" height="auto">
 
 Go ahead with the agent setup. Please refer to the previous exercises for the basic setup steps.
 
