@@ -18,4 +18,4 @@ For MacOS, please follow the instructions:
 
 Further, more detailed instructions can be found here:
 
-[https://github.com/AndreasExner/AgentsHackathon/blob/d82f966f207cba89c40cbbff0c415017a614c671/Media/Agent%20Hackathon%20-%20Setup%20and%20access%20sandbox.pdf](https://github.com/AndreasExner/AgentsHackathon/blob/d82f966f207cba89c40cbbff0c415017a614c671/Media/Agent%20Hackathon%20-%20Setup%20and%20access%20sandbox.pdf)
+[https://github.com/AndreasExner/AgentsHackathon/blob/2649dfb63034dd885d638bbd45013b20fecc7e3b/Media/Agent_Hackathon-Setup_and_access_sandbox.pdf](https://github.com/AndreasExner/AgentsHackathon/blob/2649dfb63034dd885d638bbd45013b20fecc7e3b/Media/Agent_Hackathon-Setup_and_access_sandbox.pdf)
