@@ -10,7 +10,7 @@ You can access the environment by using a Windows 365 desktop (recommended) or a
 
 Detailed instructions can be found here:
 
-<a href="https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Agent_Hackathon-Setup_and_access_sandbox.pdf" target="_blank">https://github.com/AndreasExner/AgentsHackathon/blob/main/Media/Agent_Hackathon-Setup_and_access_sandbox.pdf</a>
+<a href="https://andreasexner.github.io/Agent_Hackathon-Setup_and_access_sandbox.pdf" target="_blank">https://andreasexner.github.io/Agent_Hackathon-Setup_and_access_sandbox.pdf</a>
 
 The most convenient way to access the environment is the Windows app :
 
