@@ -12,7 +12,7 @@ The most convenient way to access the environment is the Windows app :
 
 [https://apps.microsoft.com/detail/9N1F85V9T8BN?hl=de-degl=DEocid=pdpshare](https://apps.microsoft.com/detail/9N1F85V9T8BN?hl=de-de&gl=DE&ocid=pdpshare)
 
-For MacOS, please follow the instructions: 
+For MacOS, please follow the instructions:  
 
 [https://support.microsoft.com/en-us/topic/use-the-windows-app-to-connect-to-a-cloud-pc-on-macos-with-full-keyboard-access-26627a45-7a8d-435c-8eb8-b3cf44a34943](https://support.microsoft.com/en-us/topic/use-the-windows-app-to-connect-to-a-cloud-pc-on-macos-with-full-keyboard-access-26627a45-7a8d-435c-8eb8-b3cf44a34943)
 
