@@ -14,7 +14,7 @@ Detailed instructions can be found here:
 
 The most convenient way to access the environment is the Windows app :
 
-[https://apps.microsoft.com/detail/9N1F85V9T8BN?hl=de-degl=DEocid=pdpshare](https://apps.microsoft.com/detail/9N1F85V9T8BN?hl=de-de&gl=DE&ocid=pdpshare){:target="_blank"}
+[https://apps.microsoft.com/detail/9N1F85V9T8BN?hl=de-degl=DEocid=pdpshare](https://apps.microsoft.com/detail/9N1F85V9T8BN?hl=de-de&gl=DE&ocid=pdpshare)
 
 For MacOS, please follow the instructions:  
 
