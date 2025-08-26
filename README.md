@@ -18,3 +18,6 @@ You will find anything you need in this repository. Please start with the setup 
 
 + Agent Hackathon
 + Clean-Up
+
+## Related Resources
+Find related resources [here](<Resources/Related Resources.md>). Feel free to use them during or after the Hackathon.
