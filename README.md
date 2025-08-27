@@ -20,4 +20,4 @@ You will find anything you need in this repository. Please start with the setup 
 + Clean-Up
 
 ## Related Resources
-Find related resources [here](<Setup/Sandbox environment setup guide.md>). Feel free to use them during or after the Hackathon.
+Find related resources [here](<Resources/Related Resources.md>). Feel free to use them during or after the Hackathon.
