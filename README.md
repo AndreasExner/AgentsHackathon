@@ -9,9 +9,9 @@ You will find anything you need in this repository. Please start with the setup 
 **Morning**
 
 + [Sandbox environment setup guide](<Setup/Sandbox environment setup guide.md>)
-+ <a href="https://andreasexner.github.io/Agent_Hackathon-Exercise_1.pdf" target="_blank" rel="noopener noreferrer">Exercise #1: Agent Instructions - https://andreasexner.github.io/Agent_Hackathon-Exercise_1.pdf</a>
-+ <a href="https://andreasexner.github.io/Agent_Hackathon-Exercise_2.pdf" target="_blank" rel="noopener noreferrer">Exercise #2: Agent 1 Knowledge - https://andreasexner.github.io/Agent_Hackathon-Exercise_2.pdf</a>
-+ <a href="https://andreasexner.github.io/Agent_Hackathon-Exercise_3.pdf" target="_blank" rel="noopener noreferrer">Exercise #3: Agent 2 Knowledge - https://andreasexner.github.io/Agent_Hackathon-Exercise_3.pdf</a>
++ <a href="https://andreasexner.github.io/Agent_Hackathon-Exercise_1_en.pdf" target="_blank" rel="noopener noreferrer">Exercise #1: Agent Instructions - https://andreasexner.github.io/Agent_Hackathon-Exercise_1_en.pdf</a>
++ <a href="https://andreasexner.github.io/Agent_Hackathon-Exercise_2_en.pdf" target="_blank" rel="noopener noreferrer">Exercise #2: Agent 1 Knowledge - https://andreasexner.github.io/Agent_Hackathon-Exercise_2_en.pdf</a>
++ <a href="https://andreasexner.github.io/Agent_Hackathon-Exercise_3_en.pdf" target="_blank" rel="noopener noreferrer">Exercise #3: Agent 2 Knowledge - https://andreasexner.github.io/Agent_Hackathon-Exercise_3_en.pdf</a>
 
 **Afternoon**
 
